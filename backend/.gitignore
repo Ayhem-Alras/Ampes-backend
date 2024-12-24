@@ -1,0 +1,34 @@
+# ملفات ومجلدات Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ملفات التكوين الحساسة
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ملفات الإنشاء (build)
+build/
+dist/
+
+# ملفات نظام التشغيل
+.DS_Store
+Thumbs.db
+
+# ملفات المحرر
+.idea/
+.vscode/
+*.swp
+
+# ملفات الخدمة
+coverage/
+*.out
+*.log
+
+# ملفات Cache
+.cache/
+.eslintcache
